@@ -39,4 +39,8 @@ describe('toDatetime()', function() {
 
     assert.strictEqual(toDatetime(date), toDatetime(null, true));
   });
+
+  it('Should throw an error on invalid input', function () {
+    assert.throws(toDatetime.bind(toDatetime, 'asdf'), Error);
+  });
 });
