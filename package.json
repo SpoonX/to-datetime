@@ -1,0 +1,30 @@
+{
+  "name": "to-datetime",
+  "version": "1.0.0",
+  "description": "Extremely simple and small module that formats a Date instance as datetime.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpoonX/to-datetime.git"
+  },
+  "keywords": [
+    "Date",
+    "util",
+    "format",
+    "datetime",
+    "time"
+  ],
+  "author": "RWOverdijk <wesley@spoonx.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpoonX/to-datetime/issues"
+  },
+  "homepage": "https://github.com/SpoonX/to-datetime#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
