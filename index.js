@@ -1,14 +1,11 @@
 module.exports = function(d, u) {
   d = d || new Date();
 
-  if (!(d instanceof Date)) {
-    try {
-      d = new Date(d);
-    } catch (e) {
-    }
+  if (typeof d === 'string') {
+    d = new Date(d);
   }
 
-  if (!(d instanceof Date)) {
+  if (!(d instanceof Date) || d+'' === 'Invalid Date') {
     throw new Error('Expected Date instance or constructor value.');
   }
 
