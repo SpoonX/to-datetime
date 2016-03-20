@@ -1,6 +1,9 @@
 # to-datetime
 Extremely simple and small module that formats a Date instance as datetime.
 
+> toDatetime();
+> \> 2016-03-20 13:37:00
+
 ## Installing
 
 `npm i to-datetime --save`
