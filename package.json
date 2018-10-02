@@ -1,6 +1,6 @@
 {
   "name": "to-datetime",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extremely simple and small module that formats a Date instance as datetime.",
   "main": "index.js",
   "typings": "typings.d.ts",
