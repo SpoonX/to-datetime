@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Extremely simple and small module that formats a Date instance as datetime.",
   "main": "index.js",
+  "typings": "typings.d.ts",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha -b"
   },
